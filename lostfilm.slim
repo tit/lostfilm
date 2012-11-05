@@ -1,0 +1,9 @@
+table border="1px"
+  - for item in items do
+    tr
+      td
+        a href="#{item[0]}" = item[1]
+      td = item[2]
+      td = item[3]
+      td
+        img src="#{item[4]}" style="width:240px"
